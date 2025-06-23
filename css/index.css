@@ -159,3 +159,14 @@ section {
 .footer .social-icons a:hover {
     color: var(--bs-primary);
 }
+/* =================================================================
+   FORMATAÇÃO PARA IMAGENS DA GALERIA (PÁGINA INICIAL)
+   (Adicionar ao final do seu arquivo style.css)
+   ================================================================= */
+
+.gallery-item img {
+    height: 300px;           /* Altura fixa para as imagens da galeria. Ajuste conforme sua preferência (ex: 280px, 320px). */
+    width: 100%;             /* Garante que a imagem ocupe toda a largura da coluna. */
+    object-fit: cover;       /* Cobre o espaço, cortando o excesso sem distorcer a proporção. */
+    object-position: center; /* Centraliza a imagem antes de cortar. */
+}

@@ -56,3 +56,13 @@
     border-bottom: 2px solid var(--bs-primary);
     display: inline-block;
 }
+/* =================================================================
+   FORMATAÇÃO PARA IMAGENS DOS CARDS DE PORÇÕES
+   (Adicionar ao final do seu arquivo style.css)
+   ================================================================= */
+
+.card-menu .card-img-top {
+    height: 250px;           /* Define uma altura fixa para todas as imagens. Você pode ajustar este valor (ex: 200px, 300px). */
+    object-fit: cover;       /* Esta é a mágica: a imagem cobre todo o espaço, cortando o excesso se necessário, mas sem amassar ou esticar. */
+    object-position: center; /* Garante que o corte, se houver, seja feito a partir do centro da imagem. */
+}
