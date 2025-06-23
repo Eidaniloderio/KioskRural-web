@@ -1,0 +1,58 @@
+/* =================================================================
+   ESTILOS ADICIONAIS PARA A PÁGINA DO CARDÁPIO
+   (Adicionar ao final do seu arquivo style.css)
+   ================================================================= */
+
+/* Cabeçalho das páginas internas */
+.page-header {
+    padding: 160px 0 100px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1920x500/333/FFF?text=Nosso+Sabor');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page-header h1 {
+    font-size: 3.5rem;
+}
+
+/* Estilo para a lista de itens do cardápio (bebidas, guarnições, etc) */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+    padding: 1rem 0;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: rgba(0,0,0,0.03);
+}
+
+.menu-item h5 {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    font-family: var(--bs-font-sans-serif);
+    font-weight: normal;
+    color: var(--bs-secondary);
+}
+
+.menu-item .menu-item-price {
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    color: var(--bs-primary);
+    white-space: nowrap; /* Impede que o preço quebre a linha */
+    padding-left: 1rem;
+}
+
+/* Ajustes para subtítulos dentro das seções (ex: Longneck) */
+.menu-item-list h4 {
+    font-family: var(--bs-font-monospace);
+    color: var(--bs-primary);
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--bs-primary);
+    display: inline-block;
+}
