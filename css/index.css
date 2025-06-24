@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --- Seção Hero (Início) --- */
 .hero-section {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1920x1080/444/FFF?text=Kiosk+Rural+Ambiente');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../midia/foto-drone.jpg'); /* Imagem de fundo */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Efeito Parallax */
